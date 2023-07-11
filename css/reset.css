@@ -26,3 +26,19 @@ html {
     --blackShadow: #0000004d;
     --white: #ffffff;
 }
+
+::-webkit-scrollbar {
+    width: 15;
+
+}
+
+::-webkit-scrollbar-track {
+    border: 6px solid var(--white);
+
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--blue600);
+    border: 6px solid var(--white);
+    border-radius: 20px;
+}
