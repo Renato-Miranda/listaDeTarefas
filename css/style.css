@@ -71,3 +71,18 @@ input {
     padding: 5px 10px;
     border-bottom: 1px solid var(--blueShadow);
 }
+
+.btn {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px dashed var(--blueShadow);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: var(--blue100);
+}
